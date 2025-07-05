@@ -535,7 +535,7 @@ VALUES ↓
 }
 
 .red {
-    background-color: #feb2b2;
+    background-color: #feb2b2;    
 }
 
 .value__subtitle {
@@ -564,6 +564,11 @@ TESTIMONIALS ↓
 
 #testimonials .row {
     display: flex;
+}
+
+.testimonial__title {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 

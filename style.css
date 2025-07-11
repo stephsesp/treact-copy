@@ -279,6 +279,9 @@ header .row {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.header-btn {
     z-index: 2;
 }
 
@@ -672,6 +675,59 @@ START / CALL TO ACTION ↓
     overflow: hidden;
 }
 
+.start__container {
+    background-color: #6415ff;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26vh;
+}
+
+.start__row {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__title {
+    color: #f7fafc;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    z-index: 2;
+    width: 50%;
+}
+
+.start__buttons {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.orange-btn, .white-btn {
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 500px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    padding: 20px 30px;
+    font-size: 17px;
+}
+
+.orange-btn {
+    background-color: #f56565;
+    margin-right: 30px;
+}
+
+.white-btn {
+    border: 1px solid #ffffff;
+}
 
 /* 
 

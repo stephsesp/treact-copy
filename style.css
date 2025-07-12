@@ -798,10 +798,27 @@ footer {
 .footer__social--link svg {
     height: 16px;
     width: 16px;
-    background-color: white;
-    border-radius: 500px;
-    padding: 20px 20px;
 }
+
+.footer__social--link {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms;
+}
+
+.footer__socials {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
 /* 
 
 MOBILE RESPONSIVENESS ↓

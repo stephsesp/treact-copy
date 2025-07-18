@@ -600,10 +600,42 @@ PRICING ↓
 .plan__name {
     font-size: 20px;
     font-weight: bold;
+    line-height: 1.5;
 }
 
-.plan__price
+.plan__price {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+}
 
+.plan__duration {
+    color: #a0aec0;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.plan__middle {
+    border-top: 2px solid #edf2f7;
+    border-bottom: 2px solid #edf2f7;
+    padding: 32px;
+    text-align: center;
+}
+
+.plan__target {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.plan__feature {
+    margin-top: 20px;
+    font-weight: 500;
+    color: #718096;
+    font-size: 16px;
+    line-height: 1.5;
+}
 /* 
 
 TESTIMONIALS ↓

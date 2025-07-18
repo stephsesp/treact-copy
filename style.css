@@ -569,6 +569,14 @@ PRICING ↓
     text-align: center;
 }
 
+.plans {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
 .plan {
     width: 100%;
     max-width: 384px;
@@ -636,6 +644,25 @@ PRICING ↓
     font-size: 16px;
     line-height: 1.5;
 }
+
+.plan__bottom {
+    padding: 32px;
+    position: relative;
+    text-align: center;
+}
+
+.plan__button {
+    padding: 16px 32px;
+    border-radius: 500px;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    max-width: 192px;
+    font-weight: bold;
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
 /* 
 
 TESTIMONIALS ↓

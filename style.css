@@ -124,14 +124,14 @@ nav {
     font-weight: 600;
     margin-left: 24px;
     text-decoration: none;
-    padding-top: 4px;
-    border-bottom: 2px solid transparent;
-    transition: border 300ms ease;
+
 }
 
 .nav__link:hover {
-    border-bottom: 2px solid #6415ff;
-    color: #6415ff;
+    text-decoration: underline 2px solid #6415ff;
+    text-underline-offset: 5px;
+    transition: text-decoration 300ms; 
+    color:#6415ff
 }
 
 .login {
@@ -149,6 +149,7 @@ nav {
 .nav__link--primary:hover {
     background: #3b0898;
     color: white;
+    text-decoration: none;
 }
 
 .btn__menu {
@@ -895,6 +896,18 @@ START / CALL TO ACTION ↓
     border: 1px solid #ffffff;
 }
 
+.orange-btn:hover {
+    background-color: #e53e3e;
+    transition: all 300ms ease;
+}
+
+.white-btn:hover {
+    background-color: #ffffff;
+    color: #6415ff;
+    transition: all 300ms ease;
+}
+
+
 /* 
 
 FOOTER ↓
@@ -932,6 +945,14 @@ footer {
 .footer__column--link {
     font-size: 14px;
     margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.footer__column--link:hover {
+    color: #f7fafc;
+    text-decoration: underline 2px solid white;
+    text-underline-offset: 5px;
+    transition: text-decoration 300ms;
 }
 
 .footer__divider {

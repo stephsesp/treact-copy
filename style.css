@@ -1091,9 +1091,8 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .values__list {
-     flex-direction: column;
-     max-width: 320px;
-        
+        flex-direction: column;
+        max-width: 320px;
     }    
 
     .plans {
@@ -1117,15 +1116,46 @@ MOBILE RESPONSIVENESS ↓
         width: 100%;
         justify-content: center;
     }
-
     
 }
 
 @media(max-width: 768px) {
+    
+    .services{
+        justify-content: center;
+    }
+
+    .service {
+        width: auto;
+        max-width: 384px;
+    }
+
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
     }
+
+    .quality__image--wrapper {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .quality__image {
+        width: 100%;
+    }
+
+    .quality__content {
+        width: 100%;
+        max-width: 448px;
+        margin-top: 64px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section__paragraph {
+        font-size: 14px;
+    } 
+        
     #steps .row,
     #testimonials .row {
         flex-direction: column;

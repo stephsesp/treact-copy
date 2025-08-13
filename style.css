@@ -1101,7 +1101,7 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .start__container {
-        height: 40vh;
+        height: 35vh;
     }
 
     .start__row {
@@ -1110,8 +1110,9 @@ MOBILE RESPONSIVENESS ↓
 
     .start__title {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
+
     .start__buttons {
         width: 100%;
         justify-content: center;
@@ -1120,10 +1121,21 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media(max-width: 768px) {
-    
-    .section__subtitle {
-        margin-top: 20px;
+
+
+    .section__title {
+        font-size: 36px;
     }
+
+    .section__subtitle {
+        margin-top: 16px;
+        font-size: 14px;
+    }
+
+    .section__paragraph {
+        font-size: 14px;
+    } 
+
     .services {
         justify-content: center;
     }
@@ -1133,34 +1145,38 @@ MOBILE RESPONSIVENESS ↓
         max-width: 384px;
     }
 
+    .service__row {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .service__icon {
+        margin-right: 0;
+    }
+
+    .service__description {
+        margin: 16px 0 0 0;;
+    }
+
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
     }
 
-    .quality__image--wrapper {
-        width: 100%;
-        max-width: 448px;
-    }
 
-    .quality__image {
+     .quality__content, .quality__image--wrapper, .value__content, .steps__img--wrapper, .values__img--wrapper {
         width: 100%;
+        max-width: 512px;
     }
 
     .quality__content {
-        width: 100%;
-        max-width: 448px;
-        margin-top: 64px;
-        margin-right: 0px;
-        text-align: center;
+        margin: 64px 0px 0px;
         align-items: center;
     }
-
-    .section__paragraph {
-        font-size: 14px;
-    } 
         
-    .step__content, .section__tag, .section__title {
+    .step__content, .quality__content, .value__content, .steps__description, .section__tag, .section__title, .testimonial__content {
         text-align: center;
     }
 
@@ -1171,41 +1187,28 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .step__content {
-        width: 100%;
         padding: 0;
         display: inline;
     }
 
     .steps__img--wrapper {
-        width: 100%;
-        max-width: 512px;
         margin-bottom: 64px;
     }
 
-    .steps__img {
+    .steps__img, .values__img, .quality__image, .step__content, .values__img--wrapper {
         width: 100%;
     }
 
     .steps__description {
         margin-left: 0px;
-        text-align: center;
     }
 
     .values__img--wrapper {
-        width: 100%;
-        max-width: 512px;
         margin-bottom: 64px;
     }
 
-    .values__img {
-        width: 100%;
-    }
-
     .value__content {
-        width: 100%;
-        max-width: 512px;
         padding: 0;
-        text-align: center;
 }
 
     .values__list {
@@ -1220,10 +1223,29 @@ MOBILE RESPONSIVENESS ↓
         align-items: center;
     }
 
+    .plan {
+        margin: 64px 0 0 0;
+    }
+
     .learn-btn {
         margin: 48px auto 0;
     }
 
+    .testimonial__content {
+        width: 100%;
+        max-width: 448px;
+        margin-left: 0;
+    }
+
+    .testimonial__img--wrapper {
+        width: 100%;
+        max-width: 448px;
+        margin-bottom: 64px;
+    }
+
+    .testimonial__para, .testimonial__name, .testimonial__role {
+        font-size: 14px;
+    }
 
     #steps .row,
     #testimonials .row {
@@ -1249,5 +1271,69 @@ MOBILE RESPONSIVENESS ↓
     }
     main {
         margin-bottom: 80px;
+    }
+
+    h2 { 
+        margin-bottom: 0;
+    }
+
+    .testimonial__person {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4px;
+        margin-top: 24px;
+    }
+
+    .testimonial__profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial__details {
+        margin: 12px 0 0 0;
+    }
+
+    .testimonial__buttons {
+        margin-top: 12px;;
+    }
+
+    .testimonial__arrow {
+        padding: 12px;
+    }
+
+    .start__container {
+        height: 40vh;
+    }
+
+    .start__title {
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .start__buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .orange-btn, .white-btn {
+        margin: 0;
+    }
+
+    .footer__columns {
+        text-align: center;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+    }
+
+    .footer__logo--text {
+        font-size: 20px;
+    }
+
+    .copyright {
+        font-size: 12px;;
     }
 }
